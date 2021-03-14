@@ -19,7 +19,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ui-markdown-edit": [
+        "dist/ui-markdown-edit/ui-markdown-edit",
+        "dist/ui-markdown-edit"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
