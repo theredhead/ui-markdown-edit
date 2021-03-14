@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UiMarkdownPreviewComponent } from './ui-markdown-preview.component';
+import { UiMarkdownViewComponent } from './ui-markdown-view.component';
 
 describe('UiMarkdownPreviewComponent', () => {
-  let component: UiMarkdownPreviewComponent;
-  let fixture: ComponentFixture<UiMarkdownPreviewComponent>;
+  let component: UiMarkdownViewComponent;
+  let fixture: ComponentFixture<UiMarkdownViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UiMarkdownPreviewComponent ]
+      declarations: [ UiMarkdownViewComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UiMarkdownPreviewComponent);
+    fixture = TestBed.createComponent(UiMarkdownViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { MarkdownPipe } from '../../markdown.pipe';
 
 @Component({
-  selector: 'ui-markdown-preview',
-  templateUrl: './ui-markdown-preview.component.html',
-  styleUrls: ['./ui-markdown-preview.component.scss'],
+  selector: 'ui-markdown-view',
+  templateUrl: './ui-markdown-view.component.html',
+  styleUrls: ['./ui-markdown-view.component.scss'],
 })
-export class UiMarkdownPreviewComponent implements OnInit {
+export class UiMarkdownViewComponent implements OnInit {
   @Input() source = '';
 
   get transformed() {

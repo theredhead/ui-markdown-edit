@@ -4,7 +4,7 @@ import { UiMarkdownEditComponent } from '../ui-markdown-edit/ui-markdown-edit.co
 @Component({
   selector: 'ui-markdown-toolbar',
   templateUrl: './ui-markdown-toolbar.component.html',
-  styleUrls: ['./ui-markdown-toolbar.component.sass'],
+  styleUrls: ['./ui-markdown-toolbar.component.scss'],
 })
 export class UiMarkdownToolbarComponent implements OnInit {
   @Input() editor!: HTMLTextAreaElement;

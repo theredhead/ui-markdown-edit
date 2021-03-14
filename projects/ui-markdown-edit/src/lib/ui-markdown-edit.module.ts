@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { UiMarkdownEditComponent } from './components/ui-markdown-edit/ui-markdown-edit.component';
-import { UiMarkdownPreviewComponent } from './components/ui-markdown-preview/ui-markdown-preview.component';
+import { UiMarkdownViewComponent } from './components/ui-markdown-view/ui-markdown-view.component';
 import { UiMarkdownToolbarComponent } from './components/ui-markdown-toolbar/ui-markdown-toolbar.component';
 import { MarkdownPipe } from './markdown.pipe';
 
 const components = [
-  UiMarkdownPreviewComponent,
+  UiMarkdownViewComponent,
   UiMarkdownEditComponent,
   UiMarkdownToolbarComponent,
 ];

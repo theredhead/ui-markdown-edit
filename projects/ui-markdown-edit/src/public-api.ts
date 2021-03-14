@@ -3,5 +3,5 @@
  */
 
 export * from './lib/components/ui-markdown-edit/ui-markdown-edit.component';
-export * from './lib/components/ui-markdown-preview/ui-markdown-preview.component';
+export * from './lib/components/ui-markdown-view/ui-markdown-view.component';
 export * from './lib/components/ui-markdown-toolbar/ui-markdown-toolbar.component';
